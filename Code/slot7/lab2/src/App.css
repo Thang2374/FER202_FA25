@@ -1,0 +1,21 @@
+body {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.hero-section {
+  position: relative;
+}
+
+.hero-section img {
+  height: 400px;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+.hero-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
